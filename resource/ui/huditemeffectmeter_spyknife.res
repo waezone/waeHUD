@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"r544"	[$WIN32]
+		"xpos"			"c-120"	[$WIN32]
 		"ypos"			"r132"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
@@ -64,7 +64,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"46"
+		"xpos"					"49"
 		"ypos"					"0"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"

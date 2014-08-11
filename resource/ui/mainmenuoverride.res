@@ -175,7 +175,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
+		"xpos"			"9999"
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"

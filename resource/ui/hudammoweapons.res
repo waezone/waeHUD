@@ -108,14 +108,14 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"Planet64"
 		"fgcolor"		"White"
-		"xpos"			"40"
+		"xpos"			"15"
 		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"92"
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
 	}	
@@ -125,7 +125,7 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"Planet64"
 		"fgcolor"		"25 25 25 125"
-		"xpos"			"42"
+		"xpos"			"17"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"92"
@@ -133,7 +133,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
 	}									

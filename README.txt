@@ -1,4 +1,4 @@
-waeHUD version 1.0 Initial release.
+||||||||||waeHUD version 1.2||||||||||
 
 This HUD is the first one made by me, give me feedback on what I should do next/fix on the HUD
 
@@ -24,4 +24,4 @@ To change to the ThinCircle crosshair go to scripts\hudlayout.res and scroll to 
 //////Changelog\\\\\\
 Version 1.0 Initial release
 Version 1.1 Change a few font sizes, added new HUD Item Effect Meters, added a team bar, added new crosshair presets.
-Version 1.2 Added 4:3 and 16:10 support hurray! Also added new crosshair preset.
+Version 1.2 Added 4:3 and 16:10 support hurray! Also added new crosshair preset. Also added a background picture to the main menu from http://luzikthepelle.deviantart.com/

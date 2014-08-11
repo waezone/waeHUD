@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r350"	[$WIN32]
+		"xpos"	"c100"	[$WIN32]
 		"ypos"	"r161"	[$WIN32]
 		"wide"	"188"
 		"tall"	"90"
@@ -72,7 +72,7 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r585"	[$WIN32]
+		"xpos"			"c-160"	[$WIN32]
 		"ypos"			"r185"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
@@ -85,7 +85,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r556"	[$WIN32]
+		"xpos"			"c-130"	[$WIN32]
 		"ypos"			"r145"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
@@ -191,7 +191,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r470"	[$WIN32]
+		"xpos"					"c-45"	[$WIN32]
 		"ypos"					"r275"	[$WIN32]
 		"xpos"					"r194"	[$X360]
 		"ypos"					"r174"	[$X360]
@@ -1024,8 +1024,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r570"	[$WIN32]
-		"ypos"			"r180"	[$WIN32]
+		"xpos"			"c-145"	[$WIN32]
+		"ypos"			"r175"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
 	}	
@@ -1425,7 +1425,7 @@
 		"fieldName" 	"KonrWings"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"416"
+		"xpos"			"c-11"
 		"ypos"			"c-23"
 		"wide"			"50"
 		"tall"			"48"
@@ -1440,7 +1440,7 @@
 		"fieldName" 	"ThinCircle"
 		"visible" 		"0"
 		"enabled" 		"0"
-		"xpos"			"414"
+		"xpos"			"c-13"
 		"ypos"			"c-20"
 		"wide"			"50"
 		"tall"			"48"
@@ -1455,7 +1455,7 @@
 		"fieldName" 	"SquareDot"
 		"visible" 		"0"
 		"enabled" 		"0"
-		"xpos"			"420"
+		"xpos"			"c-7"
 		"ypos"			"c-7"
 		"wide"			"24"
 		"tall"			"15"
@@ -1470,7 +1470,7 @@
 		"fieldName" 	"CircleDot"
 		"visible" 		"0"
 		"enabled" 		"0"
-		"xpos"			"421"
+		"xpos"			"c-6"
 		"ypos"			"c-6"
 		"wide"			"24"
 		"tall"			"12"
@@ -1485,7 +1485,7 @@
 		"fieldName" 	"Wings"
 		"visible" 		"0"
 		"enabled" 		"0"
-		"xpos"			"410"
+		"xpos"			"c-18"
 		"ypos"			"c-21"
 		"wide"			"50"
 		"tall"			"48"
@@ -1500,12 +1500,27 @@
 		"fieldName" 	"NoneCrosshair"
 		"visible" 		"0"
 		"enabled" 		"0"
-		"xpos"			"416"
+		"xpos"			"c-11"
 		"ypos"			"c-27"
 		"wide"			"50"
 		"tall"			"48"
 		"font"			"Xhairs33"
 		"labelText"		"y"
+		"fillcolor"		"255 255 255 125"
+		
+	}
+	"PlusCrosshair"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName" 	"NoneCrosshair"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"xpos"			"c-6"
+		"ypos"			"c-23"
+		"wide"			"50"
+		"tall"			"48"
+		"font"			"Xhairs17"
+		"labelText"		"a"
 		"fillcolor"		"255 255 255 125"
 		
 	}

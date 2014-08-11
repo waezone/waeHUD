@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"r200"	[$WIN32]
+		"xpos"			"c200"	[$WIN32]
 		"ypos"			"r160"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
@@ -65,8 +65,7 @@
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"40"
-		"wide_minmode"			"50"
+		"wide"					"220"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

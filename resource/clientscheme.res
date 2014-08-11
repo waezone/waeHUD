@@ -2664,6 +2664,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		Xhairs17
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"17"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 		Xhairs24
 		{
 			"1"

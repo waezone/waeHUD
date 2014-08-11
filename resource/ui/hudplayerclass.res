@@ -355,10 +355,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"c-190"
+		"xpos"			"c-200"
 		"ypos"			"r138"
 		"zpos"			"-1"
-		"wide"			"360"
+		"wide"			"400"
 		"tall"	 		"3"
 		"autoResize"		"0"
 		"pinCorner"		"0"
