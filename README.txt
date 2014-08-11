@@ -5,7 +5,7 @@ This HUD is the first one made by me, give me feedback on what I should do next/
 This HUD is in early development  so most features will not be changed.
 Also give me suggestion while im in the development of this HUD.
 
-NOTE: Currently only 19:9 resolutions are compatable.
+4:3 and 16:10 Resolution supported now.
 
 
 I used CoughyMachine font, Planet Estyle font, and Mentone fonts in this HUD, all credit goes to the creators of it.
