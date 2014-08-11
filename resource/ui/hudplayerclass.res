@@ -351,4 +351,29 @@
 		"delta_item_font"		"Planet16"
 		"delta_item_font_big"	"Planet24"
 	}
+	"TargetIDBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TargetIDBG"
+		"xpos"			"c-190"
+		"ypos"			"r138"
+		"zpos"			"-1"
+		"wide"			"360"
+		"tall"	 		"3"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
+	}
 }

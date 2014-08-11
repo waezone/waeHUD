@@ -86,11 +86,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Mentone16"
+		"font"			"Mentone12"
 		"xpos"			"34"
-		"xpos_minmode"	"30"
-		"ypos"			"1"
-		"ypos_minmode"	"5"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -121,7 +119,7 @@
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"font"			"Mentone12"
+		"font"			"Mentone8"
 	}
 	"SpectatorGUIHealth"
 	{

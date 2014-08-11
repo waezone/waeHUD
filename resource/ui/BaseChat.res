@@ -7,7 +7,7 @@
 		"visible" 		        "1"
 		"enabled" 		        "1"
 		"xpos"			          "0"
-		"ypos"			          "200"
+		"ypos"			          "0"
 		"wide"	 		          "200"
 		"tall"	 		          "100"
 		"fgcolor_override"		"25 25 25 220"

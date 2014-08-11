@@ -2694,6 +2694,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		Motor6
+		{
+			"1"
+			{
+				"name"		"Motor Oil 1937 M54"
+				"tall"		"6"
+				"weight"	"500"
+				"antialias" "0"
+			}
+		}
 		Motor12
 		{
 			"1"
@@ -2772,6 +2782,26 @@ Scheme
 				"tall"		"64"
 				"weight"	"500"
 				"antialias" "0"
+			}
+		}
+		Mentone6
+		{
+			"1"
+			{
+				"name"		"Mentone-SemiBold"
+				"tall"		"6"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		Mentone8
+		{
+			"1"
+			{
+				"name"		"Mentone-SemiBold"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias" "1"
 			}
 		}
 		Mentone12

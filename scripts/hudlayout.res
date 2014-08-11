@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r325"	[$WIN32]
+		"xpos"	"r350"	[$WIN32]
 		"ypos"	"r161"	[$WIN32]
 		"wide"	"188"
 		"tall"	"90"
@@ -485,12 +485,12 @@
 		"MaxDeathNotices" "4"
 		"IconScale"	  "0.35"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
+		"LineHeight"	  "12"
 		"LineSpacing"	  "4"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Mentone12"
+		"TextFont"		"Mentone8"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -1418,10 +1418,11 @@
 		"fillcolor"		"0 0 0 125"
 		
 	}
+	///Crosshairs
 	"KonrWings"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName" 	"Crosshairs"
+		"fieldName" 	"KonrWings"
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"416"
@@ -1436,7 +1437,7 @@
 	"ThinCircle"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName" 	"Crosshairs"
+		"fieldName" 	"ThinCircle"
 		"visible" 		"0"
 		"enabled" 		"0"
 		"xpos"			"414"
@@ -1445,6 +1446,66 @@
 		"tall"			"48"
 		"font"			"Xhairs33"
 		"labelText"		"9"
+		"fillcolor"		"255 255 255 125"
+		
+	}
+	"SquareDot"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName" 	"SquareDot"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"xpos"			"420"
+		"ypos"			"c-7"
+		"wide"			"24"
+		"tall"			"15"
+		"font"			"Xhairs16"
+		"labelText"		"5"
+		"fillcolor"		"255 255 255 125"
+		
+	}
+	"CircleDot"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName" 	"CircleDot"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"xpos"			"421"
+		"ypos"			"c-6"
+		"wide"			"24"
+		"tall"			"12"
+		"font"			"Xhairs16"
+		"labelText"		"3"
+		"fillcolor"		"255 255 255 125"
+		
+	}
+	"Wings"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName" 	"Wings"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"xpos"			"410"
+		"ypos"			"c-21"
+		"wide"			"50"
+		"tall"			"48"
+		"font"			"Xhairs33"
+		"labelText"		"d"
+		"fillcolor"		"255 255 255 125"
+		
+	}
+	"NoneCrosshair"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName" 	"NoneCrosshair"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"xpos"			"416"
+		"ypos"			"c-27"
+		"wide"			"50"
+		"tall"			"48"
+		"font"			"Xhairs33"
+		"labelText"		"y"
 		"fillcolor"		"255 255 255 125"
 		
 	}

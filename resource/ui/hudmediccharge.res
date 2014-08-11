@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"295"
+		"xpos"			"275"
 		"ypos"			"22"
 		"zpos"			"2"
 		"wide"			"150"
@@ -35,7 +35,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Planet48"
+		"font"			"Planet64"
 		"fgcolor"		"White"
 	}
 
@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"295"
+		"xpos"			"275"
 		"xpos_minmode"			"40"
 		"ypos"			"35"
 		"ypos_minmode"			"11"
@@ -59,7 +59,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Planet48"
+		"font"			"Planet64"
 		"fgcolor"		"White"
 	}
 	
