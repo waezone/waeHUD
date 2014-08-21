@@ -1,4 +1,4 @@
-||||||||||waeHUD version 1.2||||||||||
+||||||||||waeHUD version 1.3||||||||||
 
 This HUD is the first one made by me, give me feedback on what I should do next/fix on the HUD
 
