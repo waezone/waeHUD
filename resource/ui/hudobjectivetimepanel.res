@@ -4,10 +4,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"9999"
+		"xpos"			"20"
 		"xpos_minmode"	"35"
-		"xpos_hidef"	"108"
-		"xpos_lodef"	"108"
 		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"78"
@@ -20,6 +18,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	"TimePanelProgressBar"
 	{
@@ -50,10 +53,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"16"
+		"xpos"			"20"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"34"
+		"ypos"			"40"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -97,11 +100,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"16"
+		"xpos"			"20"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
-		"ypos_minmode"	"24"
+		"ypos"			"40"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"
@@ -144,10 +146,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"16"
+		"xpos"			"20"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"40"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -191,11 +193,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"16"
+		"xpos"			"20"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
-		"ypos_minmode"	"24"
+		"ypos"			"40"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"

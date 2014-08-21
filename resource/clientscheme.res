@@ -2904,6 +2904,86 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		Familiar8
+		{
+			"1"
+			{
+				"name"		"FamiliarPro-Bold"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		Familiar12
+		{
+			"1"
+			{
+				"name"		"FamiliarPro-Bold"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		Familiar16
+		{
+			"1"
+			{
+				"name"		"FamiliarPro-Bold"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		Familiar24
+		{
+			"1"
+			{
+				"name"		"FamiliarPro-Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		Familiar32
+		{
+			"1"
+			{
+				"name"		"FamiliarPro-Bold"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		Familiar48
+		{
+			"1"
+			{
+				"name"		"FamiliarPro-Bold"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		Familiar56
+		{
+			"1"
+			{
+				"name"		"FamiliarPro-Bold"
+				"tall"		"56"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		Familiar64
+		{
+			"1"
+			{
+				"name"		"FamiliarPro-Bold"
+				"tall"		"64"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -4839,6 +4919,11 @@ Scheme
 		{
 			"font" "resource/fonts/mentone-semibol.otf"
 			"name" "Mentone-SemiBold"
+		}
+		"13"
+		{
+			"font" "resource/fonts/Familiar Pro-Bold.otf"
+			"name" "FamiliarPro-Bold"
 		}
 	}
 }

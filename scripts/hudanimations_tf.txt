@@ -209,7 +209,8 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthValue							Fgcolor		"90 145 255 255"		Linear 0.0 0.1
 	Animate	PlayerStatusHealthValue							Fgcolor		"100 150 255 255"		Linear 0.09 0.3	
 	Animate PlayerStatusHealthValueSpec					Fgcolor		"90 145 255 255"		Linear 0.0 0.1
-	Animate	PlayerStatusHealthValueSpec					Fgcolor		"100 150 255 255"		Linear 0.09 0.3		
+	Animate	PlayerStatusHealthValueSpec					Fgcolor		"100 150 255 255"		Linear 0.09 0.3
+	Animate PlayerStatusHealthValue2					Fgcolor		"25 25 25 125"			Linear 0.0 0.0
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -225,6 +226,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	Animate	PlayerStatusHealthValue				FgColor		"255 255 255 255"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec			FgColor		"230 230 230 255"			Linear 0.0 0.0
+	Animate PlayerStatusHealthValue2					Fgcolor		"25 25 25 125"			Linear 0.0 0.0
 }
 
 //===========================================
@@ -237,7 +239,8 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValue							Fgcolor		"235 75 75 255"		Linear 0.0 0.1
 	Animate	PlayerStatusHealthValue							Fgcolor		"255 0 0 255"		Linear 0.09 0.3	
 	Animate PlayerStatusHealthValueSpec					Fgcolor		"255 75 75 255"		Linear 0.0 0.1
-	Animate	PlayerStatusHealthValueSpec					Fgcolor		"255 0 0 255"		Linear 0.09 0.3	
+	Animate	PlayerStatusHealthValueSpec					Fgcolor		"255 0 0 255"		Linear 0.09 0.3
+	Animate PlayerStatusHealthValue2					Fgcolor		"25 25 25 125"			Linear 0.0 0.0
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
 
@@ -253,6 +256,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate	PlayerStatusHealthValue				FgColor		"255 255 255 255"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec			FgColor		"255 255 255 255"			Linear 0.0 0.0
+	Animate PlayerStatusHealthValue2					Fgcolor		"25 25 25 125"		Linear 0.0 0.0
 }
 
 //===========================================

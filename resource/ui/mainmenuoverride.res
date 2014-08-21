@@ -184,6 +184,36 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
+	"waeHUDlabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"waeHUDlabel"
+		"xpos"			"c0"
+		"ypos"			"20"
+		"zpos"			"-5"
+		"wide"			"200"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"White"
+		"labeltext"		"waeHUD v1.3"
+		"font"			"Planet32"
+	}
+	"waeHUDlabel2"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"waeHUDlabel2"
+		"xpos"			"c-1"
+		"ypos"			"21"
+		"zpos"			"-6"
+		"wide"			"200"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"25 25 25 120"
+		"labeltext"		"waeHUD v1.3"
+		"font"			"Planet32"
+	}
 	
 	"MainMenuBGPanel"
 	{

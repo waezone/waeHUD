@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c100"	[$WIN32]
+		"xpos"	"c95"	[$WIN32]
 		"ypos"	"r161"	[$WIN32]
 		"wide"	"188"
 		"tall"	"90"
@@ -268,7 +268,7 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
+		"xpos"		"c-150"
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
@@ -285,7 +285,7 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
+		"xpos"		"c-150"
 		"ypos"		"300"
 		"wide"	 	"252"
 		"tall"	 	"35"
@@ -490,7 +490,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Mentone8"
+		"TextFont"		"Familiar12"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -1423,8 +1423,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName" 	"KonrWings"
-		"visible" 		"1"
-		"enabled" 		"1"
+		"visible" 		"0"
+		"enabled" 		"0"
 		"xpos"			"c-11"
 		"ypos"			"c-23"
 		"wide"			"50"
@@ -1438,8 +1438,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName" 	"ThinCircle"
-		"visible" 		"0"
-		"enabled" 		"0"
+		"visible" 		"1"
+		"enabled" 		"1"
 		"xpos"			"c-13"
 		"ypos"			"c-20"
 		"wide"			"50"

@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"Familiar16"
 	}
 	"BuyBackLabel"
 	{
@@ -316,32 +316,65 @@
 		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
-	"itempanel"
+		"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
+		"xpos"			"r262"
+		"ypos"			"290"
+		"zpos"			"-1"
+		"wide"			"257"
+		"tall"			"900"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"model_xpos"		"10"
 		"model_center_y"	"1"
-		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_wide"		"64"
+		"model_tall"		"48"
 		
 		"text_xpos"		"90"
-		"text_wide"		"170"
+		"text_ypos"		"10"
+		"text_wide"		"150"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
-		"padding_height"	"40"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
+		
+			"ItemBackground"
+			{
+			"ControlName" "ImagePanel"
+			"fieldName" "ItemBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "-1"
+			"wide" "266"
+			"tall" "900"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "25 25 25 120"
+			}
+			"TitleBackground"
+			{
+			"ControlName" "ImagePanel"
+			"fieldName" "TitleBackground"
+			"xpos" "9999"
+			"ypos" "4"
+			"zpos" "-1"
+			"wide" "232"
+			"tall" "14"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "10 10 10 170"
+			}
 		
 		"itemmodelpanel"
 		{
@@ -352,22 +385,12 @@
 		
 		"ItemLabel"
 		{	
-			"ControlName"	"Label"
+			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"9"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"xpos"			"9999"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+
 		}
-	}	
+			
+	}
 }

@@ -75,7 +75,7 @@
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"xpos"			"-16"
 		"ypos"			"8"
-		"zpos"			"5"
+		"zpos"			"6"
 		"wide"			"64"
 		"tall"			"18"
 		"visible"		"1"
@@ -83,7 +83,7 @@
 		"font"			"Planet16"
 		"labeltext"		"%health%"
 		"textAlignment"	"center"
-		"fgcolor_override"	"230 230 230 255"
+		"fgcolor"	"230 230 230 255"
 	}
 	"PlayerStatusHealthValueSpecShadow"
 	{

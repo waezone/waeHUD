@@ -89,6 +89,11 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
 			"scaleImage"		"1"	
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 		}
 
 		"FreezeLabel"
@@ -118,7 +123,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"HudFontSmall"
+			"font"			"Familiar12"
 			"xpos"			"c6"			// No avatar image on X360
 			"xpos_hidef"		"c69"
 			"ypos"			"266"
@@ -157,32 +162,65 @@
 		}	
 	}
 
-	"itempanel"
+		"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
+		"xpos"			"r262"
+		"ypos"			"290"
 		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
+		"wide"			"257"
+		"tall"			"900"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"model_xpos"		"10"
 		"model_center_y"	"1"
-		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_wide"		"64"
+		"model_tall"		"48"
 		
 		"text_xpos"		"90"
-		"text_wide"		"170"
+		"text_ypos"		"10"
+		"text_wide"		"150"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
-		"padding_height"	"40"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
+		
+			"ItemBackground"
+			{
+			"ControlName" "ImagePanel"
+			"fieldName" "ItemBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "-1"
+			"wide" "266"
+			"tall" "900"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "25 25 25 120"
+			}
+			"TitleBackground"
+			{
+			"ControlName" "ImagePanel"
+			"fieldName" "TitleBackground"
+			"xpos" "9999"
+			"ypos" "4"
+			"zpos" "-1"
+			"wide" "232"
+			"tall" "14"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "10 10 10 170"
+			}
 		
 		"itemmodelpanel"
 		{
@@ -193,24 +231,14 @@
 		
 		"ItemLabel"
 		{	
-			"ControlName"	"Label"
+			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"9"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"xpos"			"9999"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+
 		}
-	}		
+			
+	}			
 	
 	"FreezePanelBase"	[$WIN32]
 	{
@@ -227,10 +255,10 @@
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"8"
-			"ypos"			"160"
+			"ypos"			"155"
 			"zpos"			"0"
 			"wide"			"256"
-			"tall"			"33"
+			"tall"			"5"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
@@ -239,8 +267,22 @@
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 				
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		"FreezePanelBG2"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"FreezePanelBG"
+			"xpos"			"8"
+			"ypos"			"162"
+			"zpos"			"0"
+			"wide"			"256"
+			"tall"			"28"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"25 25 25 125"
+			"scaleImage"		"1"
 		}
 		
 		"FreezeLabel"
@@ -285,7 +327,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"HudFontSmall"
+			"font"			"Familiar12"
 			"xpos"			"61"
 			"ypos"			"173"
 			"zpos"			"5"

@@ -61,7 +61,7 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"75"
 		"ypos"			"32"
-		"zpos"			"5"
+		"zpos"			"10"
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"0"

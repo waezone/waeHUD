@@ -70,7 +70,7 @@
 		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"220"
-		"tall"					"6"				
+		"tall"					"3"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
