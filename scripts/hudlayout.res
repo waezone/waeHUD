@@ -851,9 +851,9 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
+		"xpos"					"0"
+		"ypos"					"r300"
+		"wide"					"f0"
 		"tall"					"300"
 	}
 
@@ -1438,8 +1438,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName" 	"ThinCircle"
-		"visible" 		"1"
-		"enabled" 		"1"
+		"visible" 		"0"
+		"enabled" 		"0"
 		"xpos"			"c-13"
 		"ypos"			"c-20"
 		"wide"			"50"

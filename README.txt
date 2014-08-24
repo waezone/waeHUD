@@ -1,4 +1,4 @@
-||||||||||waeHUD version 1.3||||||||||
+||||||||||waeHUD version 1.4||||||||||
 
 This HUD is the first one made by me, give me feedback on what I should do next/fix on the HUD
 
@@ -8,7 +8,7 @@ Also give me suggestion while im in the development of this HUD.
 4:3 and 16:10 Resolution supported now.
 
 
-I used CoughyMachine font, Planet Estyle font, and Mentone fonts in this HUD, all credit goes to the creators of it.
+I have used Familiar Bold font, and Planet Estyle fonts in this HUD, all credit goes to the creators of it.
 
 Fog's custom Crosshairs have been installed on this HUD, presets have been made for Konr Wings and ThinCircle crosshairs.
 
@@ -25,4 +25,5 @@ To change to the ThinCircle crosshair go to scripts\hudlayout.res and scroll to 
 Version 1.0 Initial release
 Version 1.1 Change a few font sizes, added new HUD Item Effect Meters, added a team bar, added new crosshair presets.
 Version 1.2 Added 4:3 and 16:10 support hurray! Also added new crosshair preset. Also added a background picture to the main menu from http://luzikthepelle.deviantart.com/
-Version 1.3 Added and removed fonts, changed freeze panels and itempanels. Made changes to make it look more complete
+Version 1.3 Added and removed fonts, changed freeze panels and itempanels. Made changes to make it look more complete.
+Version 1.4 New custom main menu, new win panel. Main menu is subject to change, like button orientation.
