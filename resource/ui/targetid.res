@@ -77,6 +77,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"5"
+		"zpos"			"-1"
 		"wide"			"400"
 		"tall"			"20"
 		"fillcolor"		"0 0 0 125"

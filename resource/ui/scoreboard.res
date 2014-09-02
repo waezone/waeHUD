@@ -43,7 +43,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"60 80 200 255"					
+		"fillcolor"		"92 107 126 225"					
 		
 		if_mvm
 		{
@@ -64,7 +64,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"LightRed"
+		"fillcolor"		"177 65 61 225"
 		
 		if_mvm
 		{
@@ -104,11 +104,11 @@
 		"textAlignment"		"west"
 		"xpos"			"20" [!$OSX]
 		"xpos"			"15" [$OSX]
-		"xpos_hidef"		"40"
 		"ypos"			"30"	[$WIN32]
 		"ypos"			"29"	[$X360]
 		"wide"			"140"
 		"tall"			"34"
+		"fgcolor"		"White"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -127,8 +127,6 @@
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"190"
-		"xpos_lodef"		"170"
-		"xpos_hidef"		"190"
 		"ypos"			"8" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -136,6 +134,7 @@
 		"tall_hidef"	"75"
 		"tall_lodef"	"75"
 		"autoResize"	"0"
+		"fgcolor"		"White"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -150,12 +149,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
 		"font"			"Planet48"
-		"fgcolor"		"Black"
+		"fgcolor"		"25 25 25 125"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"191"
-		"xpos_lodef"	"171"
-		"xpos_hidef"	"191"
 		"ypos"			"9" 
 		"zpos"			"4"
 		"wide"			"100"
@@ -180,9 +177,9 @@
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"150"
-		"xpos_hidef"		"100"
 		"ypos"			"33"
 		"wide"			"100"
+		"fgcolor"		"White"
 		"tall"			"29"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -203,12 +200,11 @@
 		"textAlignment"		"east"
 		"xpos"			"440" [!$OSX]
 		"xpos"			"445" [$OSX]
-		"xpos_lodef"	"446"
-		"xpos_hidef"	"488"
 		"ypos"			"30"	[$WIN32]
 		"ypos"			"29"	[$X360]
 		"wide"			"140"
 		"tall"			"34"
+		"fgcolor"		"White"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -227,16 +223,13 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"310"
-		"xpos_lodef"	"290"
-		"xpos_hidef"	"330"
 		"ypos"			"8" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
-		"tall_hidef"	"75"
-		"tall_lodef"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"fgcolor"		"White"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -250,7 +243,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
 		"font"			"Planet48"
-		"fgcolor"		"Black"
+		"fgcolor"		"25 25 25 125"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"311"
@@ -287,6 +280,7 @@
 		"tall"			"29"
 		"autoResize"	"0"
 		"pinCorner"		"0"
+		"fgcolor"		"White"
 		"visible"		"1"
 		"enabled"		"1"
 		

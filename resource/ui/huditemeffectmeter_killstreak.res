@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-300"	[$WIN32]
+		"xpos"			"c-200"	[$WIN32]
 		"ypos"			"r50"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -53,7 +51,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Familiar8"
+		"fgcolor"				"White"
 	}
 
 	"ItemEffectMeter"
@@ -83,7 +82,6 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"26"
-		"ypos_minmode"			"18"
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
@@ -95,6 +93,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"
 		"dulltext"				"0"
+		"fgcolor"				"White"
 		"brighttext"			"0"
 		"font"					"Planet24"
 	}

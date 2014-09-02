@@ -211,7 +211,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
-		"labeltext"		"waeHUD v1.4"
+		"labeltext"		"waeHUD v1.5"
 		"font"			"Planet32"
 	}
 	"waeHUDlabel2"
@@ -226,7 +226,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"25 25 25 120"
-		"labeltext"		"waeHUD v1.4"
+		"labeltext"		"waeHUD v1.5"
 		"font"			"Planet32"
 	}
 	

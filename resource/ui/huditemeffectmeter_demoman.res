@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"c170"	[$WIN32]
-		"ypos"			"r160"	[$WIN32]
+		"xpos"			"c-45"	[$WIN32]
+		"ypos"			"r190"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"9999"
 		"ypos"					"35"
 		"zpos"					"2"
 		"wide"					"41"
@@ -93,7 +93,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Planet32"
+		"font"					"Planet16"
 		"fgcolor"				"white"
 	}
 }
