@@ -61,8 +61,6 @@
 		"zpos"			"5"
 		"wide"			"56"
 		"tall"			"64"
-		"tall_minmode"	"39"
-		"tall_lodef"	"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"south-east"	

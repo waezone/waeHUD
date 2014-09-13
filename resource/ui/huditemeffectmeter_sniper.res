@@ -5,8 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"c-5"	[$WIN32]
+		"xpos"			"c-50"	[$WIN32]
 		"ypos"			"r175"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
@@ -80,17 +79,17 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
+		"xpos"					"0"
 		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"100"
 		"tall"					"32"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Planet16"

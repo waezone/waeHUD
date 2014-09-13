@@ -42,6 +42,14 @@
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
+	
+	"DemouiButton"
+	{
+		"label" "Demo Menu"
+        "command"   "engine demoui"
+		"subimage" "glyph_tv"
+	}
+	
 	"ReplayBrowserButton"
 	{
 		"label" "#GameUI_GameMenu_ReplayDemos"

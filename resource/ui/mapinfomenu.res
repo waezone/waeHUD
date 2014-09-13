@@ -185,10 +185,10 @@
 		"fgcolor"		"Black"
 	}
 	
-	"MenuBG"
+	"BG"
 	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"		
@@ -198,28 +198,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fov"			"20"
+		"fillcolor"		"25 25 25 125"
 		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
-			"origin_y" "0"
-			"origin_z" "-39"
-		}
-	}					
+
+	}			
 
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"r50"
 		"ypos_lodef"			"r74"
 		"ypos_hidef"			"r65"

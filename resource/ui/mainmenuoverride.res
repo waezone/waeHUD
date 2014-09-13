@@ -211,7 +211,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
-		"labeltext"		"waeHUD v1.5"
+		"labeltext"		"waeHUD v1.6"
 		"font"			"Planet32"
 	}
 	"waeHUDlabel2"
@@ -226,7 +226,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"25 25 25 120"
-		"labeltext"		"waeHUD v1.5"
+		"labeltext"		"waeHUD v1.6"
 		"font"			"Planet32"
 	}
 	
@@ -1341,6 +1341,8 @@
 			"depressedFgColor_override" "255 255 255 255"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1558,22 +1560,68 @@
 		"scaleImage"		"1"
 		
 	}
-	"CreateLabel"
+	"DemouiButton"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreateLabel"
-		"font"			"Familiar16"
-		"labelText"		"#MMenu_Create"
-		"textAlignment"	"west"
-		"xpos"			"c-278"
-		"ypos"			"298"
-		"wide"			"140"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"ControlName"	"EditablePanel"
+		"fieldname"		"DemouiButton"
+		"xpos"			"c-285"
+		"ypos"			"296"
+		"zpos"			"11"
+		"wide"			"270"
+		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"235 227 203 255"
+		
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"250"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"Familiar16"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"labeltext"		"DemoUI"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"	"92 107 126 200"
+			"armedBgColor_override"		"177 65 61 200"
+			"depressedBgColor_override"	"92 107 126 200"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"255 255 255 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
 	}
 	
 	"VRBGPanel"

@@ -163,7 +163,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"winredbg2"
-		"xpos"			"c99"
+		"xpos"			"c100"
 		"ypos"			"r80"
 		"zpos"			"-2"
 		"wide"			"40"

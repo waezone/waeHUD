@@ -1,4 +1,4 @@
-||||||||||waeHUD version 1.5||||||||||
+||||||||||waeHUD version 1.6||||||||||
 
 This HUD is the first one made by me, give me feedback on what I should do next/fix on the HUD
 
@@ -28,3 +28,4 @@ Version 1.2 Added 4:3 and 16:10 support hurray! Also added new crosshair preset.
 Version 1.3 Added and removed fonts, changed freeze panels and itempanels. Made changes to make it look more complete.
 Version 1.4 New custom main menu, changed menu background. new win panel. Main menu is subject to change, like button orientation.
 Version 1.5 Team Select Menu, Class Select Menu, and a few minor tweaks.
+Version 1.6 Added a new Button to the main menu, Charge Meters changed, few minor tweaks.
